@@ -49,7 +49,7 @@ h1{
 .color{
     color: #2b11be;
 }
-/* Navbar */
+/* Navbar start*/
 
 .navbar{
     padding: 10px;
@@ -66,6 +66,7 @@ h1{
     font-weight: 500;
 }
 
+/* Navbar end*/
 
 
 .intro-area{
