@@ -1,4 +1,4 @@
-/* Template Name : Rob Davidson | Personal Portfolio */
+/* Common Code Start */
 * {
   margin: 0;
   padding: 0;
@@ -60,6 +60,7 @@ h1 {
   color: #2b11be;
 }
 
+/* Common Code End */
 /* Navbar start*/
 .navbar {
   padding: 10px;
@@ -79,6 +80,7 @@ h1 {
 }
 
 /* Navbar end*/
+/* Introduction Section Start */
 .intro-area {
   min-height: 500px;
   padding-top: 40px;
@@ -107,12 +109,14 @@ h1 {
   width: 60%;
 }
 
-/* About section */
+/* Introduction Section End */
+/* About section Start */
 .about-section {
   min-height: 500px;
 }
 
-/* Project section */
+/* About section End */
+/* Project section Start*/
 .project-area {
   min-height: 500px;
   background-color: #f8f9fc;
@@ -140,7 +144,8 @@ h1 {
   color: #363958;
 }
 
-/* Article Section */
+/* Project section End*/
+/* Success start */
 .blog {
   min-height: 580px;
 }
@@ -188,8 +193,9 @@ h1 {
   padding-bottom: 18px;
 }
 
-/* Inquiry Section */
-.quiry-sec {
+/* Success end */
+/* Inquiry Section Start*/
+.inquiry-section {
   padding: 150px 0;
   min-height: 350px;
 }
@@ -221,7 +227,8 @@ h1 {
   float: right;
 }
 
-/* Footer Section */
+/* Inquiry Section End */
+/* Footer Section Start */
 .footer {
   text-align: center;
   min-height: 300px;
@@ -262,4 +269,6 @@ h1 {
   padding: 50px 0;
   font-size: 15px;
 }
+
+/* Footer Section End */
 /*# sourceMappingURL=style.css.map */

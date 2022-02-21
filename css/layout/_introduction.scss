@@ -1,0 +1,27 @@
+/* Introduction Section Start */
+.intro-area {
+  min-height: 500px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+.half-width {
+  h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+    color: #363958;
+    line-height: 1.2;
+    padding-top: 50px;
+    letter-spacing: 3px;
+    span {
+      color: navy;
+      display: block;
+    }
+  }
+  p {
+    padding-bottom: 45px;
+  }
+  img {
+    width: 60%;
+  }
+}
+/* Introduction Section End */

@@ -1,0 +1,24 @@
+/* Project section Start*/
+.project-area {
+  min-height: 500px;
+  background-color: #f8f9fc;
+  .project {
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 7px 15px grey;
+    float: left;
+    padding: 20px;
+    margin: 19px;
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    h3 {
+      padding: 10px 0;
+      font-size: 15px;
+      color: #363958;
+    }
+  }
+}
+/* Project section End*/
