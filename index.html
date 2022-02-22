@@ -18,22 +18,22 @@
 <body>
 
    <!-- Navbar Start-->
-   <div class="container">
+   <menu class="container">
       <nav class="navbar">
          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="project">Works</a></li>
-            <li><a href="#">Portfolio</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Works</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
          </ul>
       </nav>
-   </div>
+   </menu>
    <!-- Navbar End-->
 
    <!-- Introduction Section Start-->
-   <section class="intro-area">
-      <div class="container">
-         <div class="half-width">
+   <section id="home" class="container">
+      <section class="intro-area">
+         <section class="half-width">
             <h2>Hello, I'm <span> Mehedi Hasan Himel</span></h2>
             <p>
                I'm Full Stack Web Developer in JavaScript/React.JS/Node.JS
@@ -44,17 +44,17 @@
                be your best choice. Thanks.
             </p>
             <a class="btn" href="#">Hire Me</a>
-         </div>
-         <div class="half-width">
+         </section>
+         <section class="half-width">
             <img src="images/h2.jpg" alt="" />
-         </div>
-      </div>
+         </section>
+      </section>
    </section>
    <!-- Introduction Section End-->
 
    <!-- About Section Start-->
-   <section class="about-section">
-      <div class="container">
+   <section id="about" class="container ">
+      <div class="about-section">
          <div class="half-width">
             <img src="images/h1.jpg" alt="" />
          </div>
@@ -75,8 +75,8 @@
    <!-- About Section End-->
 
    <!-- Project Section Start-->
-   <section id="project" class="project-area">
-      <div class="container">
+   <section id="work" class=" container">
+      <div class="project-area">
          <h2 class="title center">
             <span class="color">Letest </span>Working Project
          </h2>
@@ -108,9 +108,9 @@
    </section>
    <!-- Project Section End-->
 
-   <!-- The Faces Behind Our Success start-->
-   <section class="blog">
-      <div class="container">
+   <!-- Success start-->
+   <section id="portfolio" class="container">
+      <div class="blog">
          <h2 class="title center">
             <span class="color">The Faces Behind </span> Our Success
          </h2>
@@ -136,38 +136,42 @@
             <a href="#" class="article-btn">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
          </div>
          <div class="article">
-            <img src="images/faru.jpg" alt="" />
-            <h3>AL Farabi Faru</h3>
-            <h2 class="date">Content Writer</h2>
+            <img src="images/sahin.jpeg" alt="" />
+            <h3>Sahinur Islam</h3>
+            <h2 class="date">Full-Stack Web Developer (MERN-Stack) </h2>
             <p>
-               I have good writing experience with all kinds of articles, blogs,
-               and creative writing. I have acquired the skills to create written
-               material that deepens the reader's understanding of their needs.
+               Hello, I'm Sahinur Islam, I can help you with HTML, CSS, Bootstrap, Tailwind, JavaScript, React,
+               React-Router, Next.js,
+               Typescript, Node.js, MongoDB, and Express.js, Material-Ui, Redux, Heroku, Firebase, Netlify, Swiper.js,
+               React Hook Form,
+               Git, Npm. I'm not a master of any, but know how to use Google for help.
             </p>
             <a href="#" class="article-btn">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
          </div>
       </div>
    </section>
-   <!-- The Faces Behind Our Success End-->
+   <!-- Success End -->
 
    <!-- Inquiry Section Start-->
-   <section class="container inquiry-section">
-      <div class="inquiry-area">
-         <div class="half-width">
-            <h2>Work Inquiry</h2>
-         </div>
-         <div class="half-width">
-            <div class="inquiry-btn">
-               <a class="btn" href="#">Let's Chat</a>
+   <section class="container ">
+      <section class="inquiry-section">
+         <div class="inquiry-area">
+            <div class="half-width">
+               <h2>Work Inquiry</h2>
+            </div>
+            <div class="half-width">
+               <div class="inquiry-btn">
+                  <a class="btn" href="#">Let's Chat</a>
+               </div>
             </div>
          </div>
-      </div>
+      </section>
    </section>
    <!-- Inquiry Section End-->
 
    <!-- Footer Section Start-->
-   <footer class="footer">
-      <div class="container">
+   <section class="container ">
+      <footer class="footer">
          <h3>Stay Connected</h3>
          <h4 class="email"><a href="mailto:mehedihasanhimel89@gmail.com">mehedihasanhimel89@gmail.com</a></h4>
          <div class="social">
@@ -192,8 +196,8 @@
                   Himel</a>
             </i>
          </p>
-      </div>
-   </footer>
+      </footer>
+   </section>
    <!-- Footer Section End-->
 
 </body>

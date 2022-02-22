@@ -1,6 +1,6 @@
 /* Navbar start*/
 .navbar {
-  padding: 10px;
+  padding-top: 10px;
   ul {
     text-align: right;
     li {
@@ -8,8 +8,25 @@
       a {
         padding: 5px 5px;
         font-weight: 500;
+        transition: 0.5s;
+        &:hover {
+          color: navy;
+        }
       }
     }
   }
 }
 /* Navbar end*/
+
+// Responsive Code Start
+
+/* Mobile devices Layout: 320px to 480px*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar {
+    ul {
+      text-align: center;
+    }
+  }
+}
+
+// Responsive Code End
